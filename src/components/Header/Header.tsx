@@ -10,7 +10,7 @@ function Header() {
       <Navigation />      
     </section>
       <header className="z-10 w-full max-w-5xl items-center justify-between text-sm ">
-        <div className=" bottom-0 left-0 flex h-30 md:h-48 w-full items-end justify-center  lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="align-center bottom-0 left-0 flex h-30 md:h-48 w-full items-center justify-center  lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
             href={siteurl}

@@ -12,8 +12,8 @@ function ComingSoonVersion1() {
     <>
         <section className="flex min-h-screen flex-col w-full items-center justify-between p-5 lg:p-12">
             <Header />
-            <CountDown endDate={specificEndDate} />
             <ButtonLink />
+            <CountDown endDate={specificEndDate} />
             <Footer />
         </section>
     </>

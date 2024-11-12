@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import data from "../../../data/data";
 
@@ -6,12 +7,12 @@ function ButtonLink() {
     return(
         <section className="flex justify-center items-center">
             <div className="text-center">
-                <a 
-                    className="button text-4xl font-extrabold m-2 mb-4" 
-
-                    href={ticketlink} target="_blank" rel="noopener noreferrer"
-                    >Reserve Your Tickets Now Here
-                </a>
+            <button 
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                onClick={() => { window.open(ticketlink, "_blank") }}
+            >
+                Get Your Ticket Here 
+            </button>
             </div>
         </section>
     )
