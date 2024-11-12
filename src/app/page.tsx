@@ -3,9 +3,8 @@ import ComingSoonVersion1 from "@/components/ComingSoonVersion1/ComingSoonVersio
 
 export default function Home() {  
   return (    
-      <>       
-        {/* Standard Version */}
-        <StandardComingSoon />
+      <>
+        <ComingSoonVersion1 />
       </>
   );
 }
